@@ -1,0 +1,367 @@
+[
+  {
+    "session_id": "session_1",
+    "agent_id": "agent-with-memory",
+    "team_id": null,
+    "user_id": null,
+    "workflow_id": null,
+    "session_data": {
+      "session_state": {},
+      "session_metrics": {
+        "input_tokens": 495,
+        "output_tokens": 215,
+        "total_tokens": 710,
+        "details": {
+          "model": [
+            {
+              "input_tokens": 495,
+              "output_tokens": 215,
+              "total_tokens": 710,
+              "id": "gpt-4.1-mini",
+              "provider": "OpenAI Chat"
+            }
+          ]
+        }
+      }
+    },
+    "metadata": null,
+    "agent_data": {
+      "name": "agent_with_memory",
+      "agent_id": "agent-with-memory",
+      "model": {
+        "provider": "OpenAI",
+        "id": "gpt-4.1-mini",
+        "name": "OpenAIChat"
+      }
+    },
+    "runs": [
+      {
+        "run_id": "75317810-84c5-4cba-a31c-23b277a04140",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Hello Gayatri! Nice to meet you. How can I assist you today?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DyzP55vXNOiHzHZdMJh8jnoN6NIet",
+          "system_fingerprint": "fp_5efe265edd",
+          "model_extra": {
+            "obfuscation": "ijMTJeaWE"
+          }
+        },
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1783428083,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 34,
+          "output_tokens": 16,
+          "total_tokens": 50,
+          "time_to_first_token": 4.202319100004388,
+          "duration": 4.21892910002498,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 34,
+                "output_tokens": 16,
+                "total_tokens": 50,
+                "id": "gpt-4.1-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "ee2deb98-8e62-4db3-b5bc-ea08c19c55ae",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1783428083
+          },
+          {
+            "id": "14d77ed0-d593-4917-9133-349f1ee44a73",
+            "content": "Hi, my name is Gayatri",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1783428083
+          },
+          {
+            "id": "23995e0f-8bc1-499b-ac8a-ba2d752ac2c2",
+            "content": "Hello Gayatri! Nice to meet you. How can I assist you today?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DyzP55vXNOiHzHZdMJh8jnoN6NIet",
+              "system_fingerprint": "fp_5efe265edd",
+              "model_extra": {
+                "obfuscation": "ijMTJeaWE"
+              }
+            },
+            "metrics": {
+              "input_tokens": 34,
+              "output_tokens": 16,
+              "total_tokens": 50,
+              "time_to_first_token": 4.1998487999953795
+            },
+            "created_at": 1783428083
+          }
+        ],
+        "input": {
+          "input_content": "Hi, my name is Gayatri"
+        }
+      },
+      {
+        "run_id": "333e57fc-4bec-42d5-a578-a3c8a894f3c6",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Sure, Gayatri! Here's a dad joke for you:\n\n**Why don't skeletons fight each other?**\n\nBecause they don't have the guts! \ud83d\ude04",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DyzP9kVB57npGizBRli6zO3LVDBwY",
+          "system_fingerprint": "fp_b0e1903e5d",
+          "model_extra": {
+            "obfuscation": "VKMKh2jI"
+          }
+        },
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1783428091,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 66,
+          "output_tokens": 31,
+          "total_tokens": 97,
+          "time_to_first_token": 1.2240121999930125,
+          "duration": 1.8546116999932565,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 66,
+                "output_tokens": 31,
+                "total_tokens": 97,
+                "id": "gpt-4.1-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "4f6c5431-996f-44a4-9984-015adf811be1",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1783428091
+          },
+          {
+            "id": "1f1388d6-b70f-4887-93ef-ad3fd72bad0c",
+            "content": "tell me a joke, a dad joke",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1783428091
+          },
+          {
+            "id": "dc6a5c9c-08f8-4675-a94a-b268de00ba3f",
+            "content": "Sure, Gayatri! Here's a dad joke for you:\n\n**Why don't skeletons fight each other?**\n\nBecause they don't have the guts! \ud83d\ude04",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DyzP9kVB57npGizBRli6zO3LVDBwY",
+              "system_fingerprint": "fp_b0e1903e5d",
+              "model_extra": {
+                "obfuscation": "VKMKh2jI"
+              }
+            },
+            "metrics": {
+              "input_tokens": 66,
+              "output_tokens": 31,
+              "total_tokens": 97,
+              "time_to_first_token": 1.2223800999927334
+            },
+            "created_at": 1783428091
+          }
+        ],
+        "input": {
+          "input_content": "tell me a joke, a dad joke"
+        }
+      },
+      {
+        "run_id": "7b860357-dead-44ce-bc25-898ea8c6b83c",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Certainly, Gayatri! Here's a poem on gardening for you:\n\n---\n\n**A Gardener\u2019s Whisper**\n\nIn soil soft and dark, seeds sleep tight,  \nBeneath the sun\u2019s warm, golden light.  \nWith gentle hands and patient care,  \nA garden blooms from earth laid bare.  \n\nThe whispering breeze, the buzzing bee,  \nJoin in nature\u2019s symphony.  \nColors dance in every bed,  \nWhere roots reach deep and petals spread.  \n\nFrom tender buds to towering tree,  \nLife unfolds so gracefully.  \nIn every leaf, in every vine,  \nA gardener\u2019s heart does intertwine.  \n\nSo tend the earth with love and cheer,  \nFor gardens grow from hope and care.\n\n---\n\nI hope you enjoyed it! Would you like a poem on any other topic?",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DyzPDltJZpdB27MnwMkQVsIsNsmds",
+          "system_fingerprint": "fp_ea81317eb9",
+          "model_extra": {
+            "obfuscation": "RM1jjIjx3"
+          }
+        },
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1783428094,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 110,
+          "output_tokens": 162,
+          "total_tokens": 272,
+          "time_to_first_token": 1.4720183000026736,
+          "duration": 3.1754124000144657,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 110,
+                "output_tokens": 162,
+                "total_tokens": 272,
+                "id": "gpt-4.1-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "events": [],
+        "messages": [
+          {
+            "id": "5ff596f0-4017-4544-a8ea-ccb34a286ce6",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1783428094
+          },
+          {
+            "id": "74d91c5b-5c60-4dd6-93e8-17a7ce0b3575",
+            "content": "generate a poem on gardening",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1783428094
+          },
+          {
+            "id": "2cdc3845-382d-43f8-ae37-7763ec7af3d0",
+            "content": "Certainly, Gayatri! Here's a poem on gardening for you:\n\n---\n\n**A Gardener\u2019s Whisper**\n\nIn soil soft and dark, seeds sleep tight,  \nBeneath the sun\u2019s warm, golden light.  \nWith gentle hands and patient care,  \nA garden blooms from earth laid bare.  \n\nThe whispering breeze, the buzzing bee,  \nJoin in nature\u2019s symphony.  \nColors dance in every bed,  \nWhere roots reach deep and petals spread.  \n\nFrom tender buds to towering tree,  \nLife unfolds so gracefully.  \nIn every leaf, in every vine,  \nA gardener\u2019s heart does intertwine.  \n\nSo tend the earth with love and cheer,  \nFor gardens grow from hope and care.\n\n---\n\nI hope you enjoyed it! Would you like a poem on any other topic?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DyzPDltJZpdB27MnwMkQVsIsNsmds",
+              "system_fingerprint": "fp_ea81317eb9",
+              "model_extra": {
+                "obfuscation": "RM1jjIjx3"
+              }
+            },
+            "metrics": {
+              "input_tokens": 110,
+              "output_tokens": 162,
+              "total_tokens": 272,
+              "time_to_first_token": 1.4695790999976452
+            },
+            "created_at": 1783428094
+          }
+        ],
+        "input": {
+          "input_content": "generate a poem on gardening"
+        }
+      },
+      {
+        "run_id": "f4b2d6a1-1667-44b9-93fc-c4deaf273230",
+        "agent_id": "agent-with-memory",
+        "agent_name": "agent_with_memory",
+        "session_id": "session_1",
+        "content": "Your name is Gayatri.",
+        "content_type": "str",
+        "model_provider_data": {
+          "id": "chatcmpl-DyzPIjSb5syJwSlMnjpzycJFBg2jE",
+          "system_fingerprint": "fp_8a1cea7c77",
+          "model_extra": {
+            "obfuscation": "9HxsJAcHc"
+          }
+        },
+        "model": "gpt-4.1-mini",
+        "model_provider": "OpenAI",
+        "session_state": {},
+        "created_at": 1783428099,
+        "status": "COMPLETED",
+        "metrics": {
+          "input_tokens": 285,
+          "output_tokens": 6,
+          "total_tokens": 291,
+          "time_to_first_token": 0.9915811999817379,
+          "duration": 1.092555099981837,
+          "details": {
+            "model": [
+              {
+                "input_tokens": 285,
+                "output_tokens": 6,
+                "total_tokens": 291,
+                "id": "gpt-4.1-mini",
+                "provider": "OpenAI Chat"
+              }
+            ]
+          }
+        },
+        "messages": [
+          {
+            "id": "ef0cd722-bd40-4ad1-83c9-17d234d107b8",
+            "content": "<additional_information>\n- Use markdown to format your answers.\n</additional_information>",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "system",
+            "created_at": 1783428099
+          },
+          {
+            "id": "2c28004f-93a7-41d5-9e96-4105e05e45cf",
+            "content": "what is my name?",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "user",
+            "created_at": 1783428099
+          },
+          {
+            "id": "eacac8e8-d374-4a8d-8d31-8a3aa0645e8b",
+            "content": "Your name is Gayatri.",
+            "from_history": false,
+            "stop_after_tool_call": false,
+            "role": "assistant",
+            "provider_data": {
+              "id": "chatcmpl-DyzPIjSb5syJwSlMnjpzycJFBg2jE",
+              "system_fingerprint": "fp_8a1cea7c77",
+              "model_extra": {
+                "obfuscation": "9HxsJAcHc"
+              }
+            },
+            "metrics": {
+              "input_tokens": 285,
+              "output_tokens": 6,
+              "total_tokens": 291,
+              "time_to_first_token": 0.9899202000233345
+            },
+            "created_at": 1783428099
+          }
+        ],
+        "input": {
+          "input_content": "what is my name?"
+        }
+      }
+    ],
+    "summary": null,
+    "created_at": 1783428083,
+    "updated_at": 1783428100,
+    "session_type": "agent"
+  }
+]
